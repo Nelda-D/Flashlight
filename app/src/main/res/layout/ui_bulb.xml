@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout_bulb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    >
+    <ImageView
+        android:id="@+id/imageview_uibulb_bulb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/transitionbulb"
+        android:onClick="onClick_TransitionBulb"
+        />
+    <org.nelda.flashlight.HideTextView
+        android:id="@+id/hidetextview_uibulb_hinttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="灯泡：点击变亮"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        />
+
+</FrameLayout>
